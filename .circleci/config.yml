@@ -11,8 +11,8 @@ jobs:
           name: Update
           command: apt-get -y update
       - run:
-        name: Install Google Chrome Stable Version
-        command: apt-get -y install google-chrome-stable
+          name: Install Google Chrome Stable Version
+          command: apt-get -y install google-chrome-stable
 
 
 
